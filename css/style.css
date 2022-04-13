@@ -1,0 +1,979 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Public Sans', sans-serif;
+    font-size: 16px;
+}
+h1{
+    font-size:4rem;
+    line-height:5rem;
+    font-weight: 800;
+}
+h2{
+    font-size: 3.75rem;
+    line-height: 4.375rem;
+    font-weight: 800;
+}
+h4{
+    font-size: 2rem;
+    line-height: 2.3125rem;
+    font-weight: 700;
+}
+h5{
+    font-size: 1.375rem;
+    line-height: 1.625rem;
+    font-weight: 700;
+}
+h6{
+    font-size: 1.25rem;
+    line-height:1.875rem;
+    font-weight: 500;
+}
+p{
+    font-size: 1rem;
+    line-height: 1.375rem;
+    font-weight: 400;
+    margin:0;
+}
+a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+.body-text2{
+    font-size: 1.25rem;
+    line-height:1.625rem;
+    font-weight: 600;
+    color: #545A5C;
+}
+.btn-main{
+    font-size: 1.375rem;
+    line-height: 1.56rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 700;
+    padding: 1.2rem 1.5rem;
+    display: inline-block;
+    text-align: center;
+    transition: 0.3s ease-in-out;
+ }
+ .btn-main:hover{
+    transition: 0.3s ease-in-out;
+    transform: translateY(-0.25em);
+ }
+ .head-btn{
+     color: #fff;
+     background-color: #EE4D4A;
+     font-size: 1rem;
+     line-height: 1.2rem;
+     font-weight: 400;
+     font-family: 'Ubuntu', sans-serif;
+     letter-spacing: 1%;
+     display: inline-block;
+     text-align: center;
+     padding: 0.75rem  1.56rem;
+     transition: 0.2s ease-in-out;
+ }
+ .head-btn:hover {
+    background: #c4201c;
+}
+ .market-btn{
+     background: #EE4D4A;
+     color: #fff;
+     box-shadow: -6px 6px 0 #EEB098,12px 12px 0 #f4fdf6;
+ }
+ .market-btn:hover{
+    box-shadow: -12px 12px 0 #EEB098,12px 12px 0 #f4fdf6;
+ }
+ .freemarket-btn{
+     background-color: #F7E39E;
+     color: #1F2122;
+     box-shadow: -6px 6px 0 #5C9EDC,12px 12px 0 #1C427B;
+ }
+ .freemarket-btn:hover{
+    box-shadow: -12px 12px 0 #5C9EDC,12px 12px 0 #1C427B;
+ }
+ .quick-btn{
+     background: #ffffff;
+     color: #1F2122;
+     box-shadow: -6px 6px 0 #F0CA50,12px 12px 0 #EE4D4A;
+ }
+ .quick-btn:hover{
+    box-shadow: -12px 12px 0 #F0CA50,12px 12px 0 #EE4D4A;
+}
+ .freemarket-btn:hover,.quick-btn:hover{
+    color: #1F2122;
+ }
+ .btn-click01{
+    background-color: #EE4D4A;
+    color: #ffffff;
+    box-shadow: -6px 6px 0 #EEB098,12px 12px 0 #1c427b00;
+ }
+ .btn-click01:hover{
+    box-shadow: -12px 12px 0 #EEB098,12px 12px 0 #1c427b00;
+ }
+ .btn-click02{
+    background-color: #5C9EDC;
+    color: #ffffff;
+    box-shadow: -6px 6px 0 #89BDED,12px 12px 0 #1c427b00;
+ }
+ .btn-click02:hover{
+    box-shadow: -12px 12px 0 #89BDED,12px 12px 0 #1c427b00;
+ }
+ .mb-30{
+     margin-bottom: 1.875rem;
+ }
+
+ /* header */
+ 
+ #header{
+     position: fixed;
+     top: 0;
+     width: 100%;
+     z-index: 99;
+ }
+ .headerClass {
+    background-color: #1c427b;
+}
+ #header .navbar-nav .nav-item .nav-link{
+  color: #fff;
+  margin-right: 2.5rem;
+ }
+ #header .navbar-nav .nav-link .call-icon {
+    background: #fff;
+    padding: 0.3rem 0.4rem;
+    border-radius: 0.2rem;
+    margin-right: 0.5rem;
+ }
+ .mob-menu{
+    display: none;
+}
+#header .navbar-nav.mob-menu .nav-item .nav-link {
+    margin-right: 0rem;
+}
+#header .navbar-brand img{
+    width: 8rem;
+}
+
+
+ /* banner-section */
+ .banner-section{
+     background-image: url(../img/Landing_page.svg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding-top: 1rem;
+     height: 100vh;
+ }
+ .banner-content{
+     color: #fff;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: flex-start;
+     padding-left: 2rem;
+     height: 100vh;
+ }
+ .banner-side-logo{
+     display: none;
+ }
+ .banner-logo{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    position: relative;
+ }
+ .banner-logo .landing-arrow{
+    position: absolute;
+    bottom: -15%;
+    left: 6%;
+ }
+ .banner-content p{
+    color: #fff;
+    font-weight: 400;
+ }
+ .banner-content h1{
+     margin: 0;
+ }
+ .banner-content .clickconvert-left-btn{
+     margin-top:3.75rem;
+ }
+ .banner-section .banner-content .btn-main{
+    font-weight: 500;
+    font-size: 1.125rem;
+    line-height: 1.25rem;
+ }
+ .mobile-landing{
+     display: none;
+ }
+ .banner-content p:first-of-type{
+     margin-bottom: 1.25rem;
+ }
+  .banner-content #typewriter #typewriter-text{
+    position: relative;
+    font-size:4rem;
+    line-height:5rem;
+    color: #EE4D4A;
+    font-weight: 800;
+  }
+  .banner-content #typewriter #typewriter-suffix{
+    font-size:4rem;
+    font-weight: 500;
+    color: #EE4D4A;
+  }
+
+ /* about-section */
+
+ .about-section{
+     background-color: #fff;
+     padding-top: 7.5rem;
+ }
+ .about-section .about-content {
+     margin-bottom: 5rem;
+ }
+ .about-section .about-content h2{
+     margin-bottom: 1.215rem;
+     color: #1F2122;
+ }
+ .our-award .award-card {
+    margin-bottom: 3rem;
+    display: flex;
+ }
+ .our-award .award-card .award-img{
+     margin-right: 1rem;
+ }
+ .award-content .award-value{
+   font-size: 2rem;
+   line-height: 2.25rem;
+   font-weight: 700;
+   margin-bottom: 0.5rem;
+   font-family: 'Ubuntu', sans-serif;
+   color: #1C427B;
+ }
+ .about-img{
+     position: relative;
+ }
+ .about-subimg-img{
+     position: absolute;
+     right: -54px;
+     bottom: 60px;
+ }
+
+
+ /* partner-style */
+ .clients-style-two{
+     position: relative;
+     z-index: -2;
+     background-color: #fff;
+     padding: 7.5rem 0;
+ }
+ .inner-container{
+    background: #fff;
+    box-shadow: 0 5px 30px 0px rgb(0 0 0 / 8%);
+    text-align: center;
+    padding: 2.5rem 2rem;
+    position: relative;
+ }
+ .inner-container::before{
+    position: absolute;
+    content: '';
+    background: #8EC6D8;
+    width: calc(100% - 100px);
+    height: 100%;
+    left: 50px;
+    top: 20px;
+    box-shadow: 0 5px 30px 0 rgb(0 0 0 / 8%);
+    z-index: -1;
+}
+.inner-container .clients-carousel .owl-stage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.clients-carousel .owl-item img{
+    width: 100px;
+}
+.clients-carousel .owl-item img:hover{
+    opacity: 0.5;
+}
+
+/* performance-marketing-section */
+
+.performance-marketing-section{
+ background-color: #fff;
+ position: relative;
+ padding-bottom: 5rem;
+}
+.performance-marketing-section .per-img1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.performance-marketing-section .per-img2{
+  position: absolute;
+  top: 20%;
+  right: 0;
+}
+.performance-marketing-section .per-img3{
+    position: absolute;
+    bottom: 10%;
+    right: 10%;
+}
+.performance-marketing-section .section-content{
+    padding: 0 2rem;
+}
+.performance-marketing-section .per-mark-card{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin-bottom: 5rem;
+}
+.per-mark-card .per-mark-card-img{
+    flex-basis: 16%;
+    padding-right: 1.5rem;
+}
+.per-mark-card-content{
+    flex-basis: 80%;
+    padding-right: 2.25rem;
+}
+.per-mark-card .per-mark-card-content h5{
+   color: #1F2122;
+   margin-bottom: 1rem;
+   font-family: 'Ubuntu', sans-serif;
+}
+
+
+/* client-work-section */
+
+.clickconvert-section .clickconvert-left .clickconvert-left-btn .btn-main{
+   font-weight: 500;
+   font-size: 1.125rem;
+   line-height: 1.25rem;
+}
+.clickconvert-left{
+    background-color: #1C427B;
+    color: #fff;
+    padding: 2.5rem;
+}
+.clickconvert-left-inner{
+    padding: 5rem 4rem;
+    background-image: url("data:image/svg+xml,%3csvg width='100%25' height='100%25' xmlns='http://www.w3.org/2000/svg'%3e%3crect width='100%25' height='100%25' fill='none' rx='5' ry='5' stroke='%23F7E39EFF' stroke-width='5' stroke-dasharray='22' stroke-dashoffset='0' stroke-linecap='square'/%3e%3c/svg%3e");
+    border-radius: 0.225rem;
+}
+.clickconvert-left-inner h2{
+    margin-bottom: 1rem;
+}
+.clickconvert-left-inner h6{
+    margin-bottom: 2rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+.clickconvert-left-btn{
+    margin-top: 5rem;
+}
+.clickconvert-left-btn a{
+   margin-bottom: 1.25rem;
+}
+.clickconvert-left-btn a:not(:last-child){
+    margin-right: 3.125rem;
+}
+.clickconvert-right{
+    position: relative;
+    background-color:#EE4D4A;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.clickconvert-right .click-top{
+    position: absolute;
+    right: 10%;
+    top: 0;
+}
+.client-work-section{
+    position: relative;
+    overflow: hidden;
+    padding: 9.275rem 0 3.275rem 0;
+}
+.client-work-section .partner-logo{
+    padding:3.125rem 0  9.275rem 0;
+}
+.client-work-box .client-work1{
+   position: absolute;
+   top: 35%;
+   right: -3%;
+}
+.client-work-box .client-work2{
+    position: absolute;
+    bottom: 20%;
+    right: 0;
+ }
+.client-work-box h2{
+    padding-bottom: 5rem;
+}
+.client-work-box-inner{
+    padding-right: 5rem;
+    margin-bottom: 5rem;
+}
+.client-work-box-inner img{
+    margin-bottom:2.5rem;
+}
+.client-work-box-inner h4{
+   margin-bottom: 1rem;
+   font-family: 'Ubuntu', sans-serif;
+}
+.client-work-box-inner p{
+ margin: 0;
+}
+
+/* freemarketing-plan-section */
+.freemarketing-plan-section{
+    padding: 9.275rem 0;
+    background-color: #1C427B;
+    color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+.freemarketing-plan-section .freemarketing-img1{
+   position: absolute;
+   top: -33%;
+   left: 0;
+}
+.freemarketing-plan-section .freemarketing-img2{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+.freemarketing-plan-section .section-content{
+    padding: 0;
+}   
+.freemarketing-plan-section .section-content h2{
+    margin-bottom: 3rem;
+}
+.freemarketing-plan-section .btn-main{
+    font-weight: 500;
+}
+
+/* our-bussiness-section */
+.our-bussiness-section{
+    padding: 7.5rem 0;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    background-color: #fff;
+}
+.our-bussiness-section .our-bussiness-icon1{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+}
+.our-bussiness-section .our-bussiness-icon2{
+    position: absolute;
+    bottom: 23%;
+    right: -3%;
+}
+.our-bussiness-section .our-bussiness-icon3{
+    position: absolute;
+    bottom: 8%;
+    left: -13%;
+}
+.our-bussiness-section .section-content{
+    padding: 0;
+}
+
+.our-bussiness-section .bussiness-card{
+    padding: 2.5rem 1rem;
+    height: 100%;
+    box-shadow:0px 0px 10px rgba(0, 0, 0, 0.15);
+}
+
+.our-bussiness-section .bussiness-card:hover {
+    box-shadow: 0px 0px 15px rgb(0 0 0 / 25%);
+}
+
+.our-bussiness-section .bussiness-card:hover{
+    transition:0.3s ease-in-out;
+    background-color: #fff;
+}
+
+.bussiness-card h3{
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 0.625rem;
+    font-weight: 700;
+}
+
+.bussiness-card p{
+    margin-bottom: 3.5rem;
+}
+
+/* marketing-plan-section */
+.marketing-plan-section{
+    background-color: #FAFAFA;
+    padding: 7.5rem 0 5.93rem;
+}
+.marketing-plan-section .section-content{
+    padding: 0;
+}
+
+/* quick-call-section */
+.quick-call-section{
+    background-color: #EE4D4A;
+    padding: 7.5rem 0 5.93rem;
+    position: relative;
+    overflow: hidden;
+    color: #fff;
+}
+.quick-call-section p{
+    color: #fff;
+}
+.quick-call-section .quick-icon1{
+    position: absolute;
+    top: 30%;
+    left: 2%;
+}
+.quick-call-section .quick-icon2{
+   position: absolute;
+   bottom: 0px;
+   right: -17%;
+}
+.section-content{
+    padding: 0 3.75rem;
+}
+.section-content h2{
+    margin-bottom: 1.25rem;
+}
+.section-content p{
+    margin-bottom: 3.75rem;
+}
+
+/* footer css start */
+
+footer .main-footer{
+    background-color: #163459;
+    color: #fff;
+    padding: 6.25rem 0 4.065rem 0;
+}
+footer .main-footer .social-link{
+    padding-top: 2rem;
+}
+footer .main-footer .ftr-about p{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    padding: 1.625rem 0;
+    width: 70%;
+}
+footer .main-footer .social-link i{
+    color: #fff;
+}
+footer .main-footer .social-link li{
+    width: 0.875rem;
+    height: 0.875rem;
+    padding: 1.24rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 50%;
+    background-color: rgba(225, 225, 225, 0.2);
+}
+footer .main-footer .social-link li:not(:last-child){
+    margin-right: 1rem;;
+}
+footer .main-footer .ftr-link h6{
+  margin-bottom: 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+footer .main-footer .ftr-link .body-text2{
+    color: #8EC6D8;
+    margin-left: 0.5rem;
+    font-weight: 400;
+    font-family: 'Nanum Pen Script', cursive;
+}
+footer .main-footer .ftr-link a{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #D9DBE1;
+    font-family: 'Inter', sans-serif;
+    align-items: self-start;
+    display: flex;
+    padding-bottom: 1.325rem;
+}
+footer .main-footer .ftr-link img{
+    margin-right:0.625rem;
+}
+footer .copyright{
+    background-color: #0A203A;
+    color: #fff;
+    padding: 1.2rem 0;
+}
+footer .copyright-text{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color: #D9DBE1;
+    font-family: 'Inter', sans-serif;
+}
+footer .copyright-link li a{
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+    color: #D9DBE1;
+    padding: 0 0.5rem;
+}
+footer .copyright-link{
+    justify-content: end;
+}
+footer .copyright-link li:not(:last-child) a{
+    border-right: 1px solid;
+}
+
+/* responsive-css */
+@media(max-width:992px){
+    h1,h2 {
+        font-size: 2rem;
+        line-height: 2.775rem;
+    }
+    .banner-content #typewriter #typewriter-text{
+        font-size: 2rem;
+        line-height: 2.775rem;
+      }
+      .banner-content #typewriter #typewriter-suffix{
+        font-size: 2rem;
+        line-height: 2.775rem;
+      }
+    .banner-content .dynamic-txts {
+        height: 2.35rem;
+        line-height: 1.75rem;
+        overflow: hidden;
+    }
+    .banner-content .dynamic-txts li span {
+        font-size: 2rem;
+        line-height: 2.77rem;
+    }
+    .mob-menu{
+        display: block;
+    }
+    .banner-logo{
+        display: flex;
+    }
+    .banner-content .clickconvert-left-btn {
+        display: none;
+    }
+    .banner-side-logo{
+        display: block;
+        text-align: center;
+        padding-bottom: 5rem;
+    }
+
+    .banner-content{
+        height: 100%;
+        padding: 6.75rem 0.5rem 2rem;
+        align-items: center; 
+    }
+    .banner-section{
+        height: 100%;
+        padding-bottom: 3.2rem;
+    }
+    .banner-content h1,
+    .banner-content p{
+        text-align: center;
+    }
+    .about-img{
+        text-align: center;
+    }
+    .about-subimg-img,.per-img1,
+    .per-img2,.per-img3,.client-work1,
+    .client-work2,.our-bussiness-icon1,
+    .our-bussiness-icon2,.our-bussiness-icon3,
+    .quick-icon1,.quick-icon2,.click-top,
+    .freemarketing-img1, .freemarketing-img2{
+        display: none;
+    }
+    .clickconvert-right {
+        padding: 3.2rem 0;
+    }
+    .client-work-box-inner{
+        padding-right: 0;
+        margin-bottom: 3.75rem
+    }
+    .client-work-section {
+        padding: 4.275rem 0 3.275rem 0;
+    }
+    .client-work-section .partner-logo {
+        padding: 3.125rem 0 4.275rem 0;
+    }
+    .client-work-box h2 {
+        padding-bottom: 3.25rem;
+        margin: 0;
+    }
+    .freemarketing-plan-section{
+        padding: 5rem 0;
+    }
+    .our-bussiness-section{
+        padding: 3.875rem 0;
+    }
+    .bussiness-card h3{
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+    }
+    .bussiness-card p {
+        margin-bottom: 2.5rem;
+    }
+    .main-footer .ftr-about {
+        margin-bottom: 3.75rem;
+    }
+    footer .main-footer .ftr-about p {
+        padding: 1.425rem 0;
+        width: 80%;
+    }
+    .quick-call-section{
+        padding: 3.75rem 0;
+    }
+    .section-content{
+        padding: 0;
+    }
+    .performance-marketing-section .section-content{
+        padding: 0;
+    }
+    .clients-style-two{
+        padding: 5rem 0;
+    }
+    .marketing-plan-section {
+        background-color: #FAFAFA;
+        padding: 3.75rem 0 5rem;
+    }
+    
+}
+
+@media(max-width:768px){
+    h1,h2{
+        font-size: 1.8rem;
+        line-height: 2rem;
+     }
+    h4 {
+        font-size: 1.25rem;
+        line-height: 1.375rem;
+        font-weight: 700;
+    }
+    h6 {
+        font-size: 1rem;
+        line-height: 1.275rem;
+    }
+    .body-text2{
+        font-size: 1rem;
+        line-height: 1.3125rem;
+    }
+    p{
+        font-size: 0.875rem;
+        line-height: 1.3125rem;
+    }
+    .btn-main{
+        font-size: 0.85rem;
+        line-height: 1rem;
+        font-family: 'Public Sans', sans-serif;
+        padding: 1.025rem 0.25rem;
+        text-transform: uppercase;
+    }
+    .clickconvert-section .clickconvert-left .clickconvert-left-btn .btn-main,
+    .freemarketing-plan-section .btn-main{
+        font-weight: 700;
+    }
+    #header .navbar-brand img{
+        width: 100%;
+    }
+
+    .banner-content #typewriter #typewriter-text{
+        font-size: 2.25rem;
+        line-height: 2rem;
+    }
+    .banner-content #typewriter #typewriter-suffix{
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    .about-section{
+        padding-top: 3.2rem;
+    }
+    .about-section .about-content h2{
+        margin-bottom: 0.8rem;
+    }
+    .about-section .about-content{
+        margin-bottom: 3.75rem;
+        text-align: center;
+    }
+    .about-subimg-img{
+        display: none;
+    }
+    .partner-logo .col{
+        flex-basis: 50%;
+        margin-bottom: 2.5rem;
+    }
+    .client-work-box-inner img {
+        margin-bottom: 1.25rem;
+    }
+    .clickconvert-left-inner{
+        padding: 2rem;
+    }
+    .clickconvert-left{
+        padding:1.2rem;
+        text-align: center;
+    }
+    footer .main-footer {
+        background-color: #163459;
+        color: #fff;
+        padding: 4rem 0 1.065rem 0;
+    }
+    footer .copyright-link {
+        justify-content: start;
+        margin-top: 1rem !important;
+    }
+    footer .copyright {
+        background-color: #163459;
+        padding: 0 0 2.5rem;
+        margin-top: -1px;
+    }
+    footer .copyright-text{
+        font-size: 1rem;
+    }
+    footer .copyright-link li a{
+        font-size: 1rem;
+    }
+    footer .copyright-link li:first-child a{
+        padding-left: 0;
+    }
+    footer .main-footer .ftr-about img{
+        width: 200px;
+        object-fit: cover;
+    }
+    .performance-marketing-section {
+        padding-bottom: 1rem;
+    }
+    .client-work-section .partner-logo {
+        padding: 0.125rem 0 2.275rem 0;
+    }
+    .clickconvert-left-inner {
+        padding: 2.75rem 1.5rem;
+    }
+    .clickconvert-left-inner h2 {
+        margin-bottom: 1.775rem;
+    }
+    .clickconvert-left-btn a:last-child{
+        margin: 0;
+    }
+    .clickconvert-section .clickconvert-left .clickconvert-left-btn .btn-main {
+        font-size: 0.85rem;
+        line-height: 1rem;
+    }
+    .clickconvert-left-inner h6 {
+        margin-bottom: 1.25rem;
+    }
+    .clickconvert-left-btn {
+        margin-top: 3.25rem;
+    }
+    .navbar {
+        padding: 0.5rem 0rem;
+    }
+    .mobile-landing{
+        display: block;
+    }
+    .landing-arrow,.click-logo{
+        display: none;
+    }
+    .banner-side-logo .clickconvert-left-btn {
+        margin: 3.25rem 0.8rem 0 0.8rem;
+    }
+    
+  
+}
+
+@media(max-width:575px){
+    .btn-main{
+        display: block;
+    }
+    .banner-content .dynamic-txts li span {
+        font-size: 1.75rem;
+        line-height: 2rem;
+    }
+    .banner-content .dynamic-txts {
+        height: 2rem;
+        line-height: 2.75rem;
+    }
+    .banner-content p{
+        font-size: 0.95rem;
+        line-height: 1.3125rem;
+    }
+    .banner-content #typewriter{
+        margin: 0.75rem 0;
+    }
+    .banner-content .clickconvert-left-btn {
+        display: none;
+    }
+    .our-award .award-card {
+        margin-bottom: 3rem;
+        flex-direction: column;
+        align-items: center;
+        height: 100%;
+    }
+    .our-award .award-card .award-content{
+        text-align: center;
+        padding: 0;
+    }
+    .award-content .award-value {
+        font-size: 1.5rem;
+        line-height: 1.68rem;
+        font-weight: 700;
+        margin-bottom: 0.5rem;
+        font-family: 'Ubuntu', sans-serif;
+        color: #1C427B;
+    }
+    .our-award .award-card .award-img {
+        margin-bottom: 1.2rem;
+        margin-right: 0;
+    }
+    .clickconvert-left-btn a:not(:last-child){
+        margin-right:0;
+    }
+    footer .main-footer .ftr-about p {
+        width: 100%;
+    }
+    footer .main-footer .ftr-link h6 {
+        margin-bottom: 1rem;
+    }
+    .inner-container {
+        padding: 1rem;
+    }
+    .clients-carousel .owl-item img {
+        width: 65px;
+    }
+    .performance-marketing-section .per-mark-card{
+        flex-direction: column;
+        margin-bottom: 3.2rem;
+    }
+    .per-mark-card .per-mark-card-img{
+        padding-right: 0;
+        margin-bottom: 1.25rem;
+    }
+    .per-mark-card .per-mark-card-content h5{
+        margin-bottom: 0.5rem;
+    }
+    .main-footer .ftr-about{
+        text-align: center;
+    }
+    .main-footer .social-link{
+        justify-content: center;
+    }
+    #header .navbar-brand{
+        margin: 0;
+    }
+    #header .navbar-nav.mob-menu .nav-item .nav-link {
+        font-size: .695rem;
+    }
+    #header .navbar-nav.mob-menu .nav-link .call-icon {
+        width: 2.05rem;
+        padding: 0.4rem 0.5rem;
+    }
+    .mob-menu .nav-item .nav-link  span{
+        display: none;
+    }
+}
